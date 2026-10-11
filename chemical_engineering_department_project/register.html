@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Department of Chemical Engineering educational website." name="description"/>
+  <title>
+   Register | Department of Chemical Engineering
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip" href="#main-content">
+   Skip to main content
+  </a>
+  <header class="header">
+   <div class="head">
+    <a class="brand" href="index.html">
+     <span class="mark">
+      CE
+     </span>
+     Department of Chemical Engineering
+     <small>
+      SRM TRP
+     </small>
+    </a>
+    <nav aria-label="Main navigation">
+     <ul>
+      <li>
+       <a href="index.html">
+        Home
+       </a>
+      </li>
+      <li>
+       <a href="about.html">
+        About
+       </a>
+      </li>
+      <li>
+       <a href="courses.html">
+        Courses
+       </a>
+      </li>
+      <li>
+       <a aria-current="page" href="register.html">
+        Register
+       </a>
+      </li>
+      <li>
+       <a href="contact.html">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="evidence.html">
+        Evidence
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main id="main-content">
+   <div class="heading">
+    <p class="kicker">
+     Get in touch
+    </p>
+    <h1>
+     Register an Enquiry or Visit
+    </h1>
+    <p>
+     Demonstration form for accessible labels, required fields and built-in HTML validation.
+    </p>
+   </div>
+   <div class="card">
+    <div class="notice">
+     <b>
+      Demo form:
+     </b>
+     This static project does not save or transmit information.
+    </div>
+    <form action="#" method="get">
+     <fieldset>
+      <legend>
+       Personal details
+      </legend>
+      <div class="formgrid">
+       <div class="field">
+        <label for="fullname">
+         Full name *
+        </label>
+        <input autocomplete="name" id="fullname" maxlength="80" minlength="2" name="full_name" placeholder="Enter your name" required="" type="text"/>
+       </div>
+       <div class="field">
+        <label for="email">
+         Email address *
+        </label>
+        <input autocomplete="email" id="email" name="email" placeholder="name@example.com" required="" type="email"/>
+       </div>
+       <div class="field">
+        <label for="phone">
+         Phone number
+        </label>
+        <input id="phone" name="phone" pattern="[0-9+() -]{7,20}" placeholder="+91 98765 43210" type="tel"/>
+        <span class="hint">
+         Use 7&ndash;20 digits or common phone symbols.
+        </span>
+       </div>
+       <div class="field">
+        <label for="role">
+         I am a *
+        </label>
+        <select id="role" name="role" required="">
+         <option value="">
+          Select an option
+         </option>
+         <option>
+          Prospective student
+         </option>
+         <option>
+          Current student
+         </option>
+         <option>
+          Faculty member
+         </option>
+         <option>
+          Industry visitor
+         </option>
+         <option>
+          Other visitor
+         </option>
+        </select>
+       </div>
+      </div>
+     </fieldset>
+     <fieldset>
+      <legend>
+       Enquiry details
+      </legend>
+      <div class="formgrid">
+       <div class="field">
+        <label for="interest">
+         Area of interest *
+        </label>
+        <select id="interest" name="interest" required="">
+         <option value="">
+          Choose an area
+         </option>
+         <option>
+          Department information
+         </option>
+         <option>
+          Course information
+         </option>
+         <option>
+          Process laboratory visit
+         </option>
+         <option>
+          Industrial visit
+         </option>
+         <option>
+          Other
+         </option>
+        </select>
+       </div>
+       <div class="field">
+        <label for="date">
+         Preferred date
+        </label>
+        <input id="date" name="preferred_date" type="date"/>
+       </div>
+       <div class="field full">
+        <label for="message">
+         Message *
+        </label>
+        <textarea id="message" maxlength="1000" minlength="10" name="message" placeholder="What information do you need?" required=""></textarea>
+       </div>
+       <div class="field full">
+        <label>
+         <input name="consent" required="" style="width:auto" type="checkbox"/>
+         I understand this demo form does not send or store my details. *
+        </label>
+       </div>
+      </div>
+     </fieldset>
+     <button class="button" type="submit">
+      Validate enquiry
+     </button>
+     <p class="hint">
+      Required fields are marked with an asterisk. No backend is connected.
+     </p>
+    </form>
+   </div>
+  </main>
+  <footer class="footer">
+   <div class="foot">
+    <div>
+     <b>
+      Department of Chemical Engineering
+     </b>
+     <br/>
+     <span class="small">
+      Your College Name &middot; Student mini project
+     </span>
+    </div>
+    <div class="small">
+     <a href="index.html">
+      Home
+     </a>
+     &middot;
+     <a href="contact.html">
+      Contact
+     </a>
+     &middot;
+     <a href="evidence.html">
+      Evidence
+     </a>
+     <br/>
+     &copy; 2026 Educational demonstration
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
+

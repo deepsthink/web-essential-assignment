@@ -1,0 +1,9 @@
+# Reflection (200–300 words)
+
+Building the Department of Chemical Engineering website helped me understand how a multi-page website is planned and structured with HTML5. I divided the content into six pages so that each page has a clear purpose: home, about, courses, registration, contact and evidence. A shared navigation menu and footer make it easier for users to move between pages and keep the design consistent.
+
+I used semantic elements such as `header`, `nav`, `main`, `section`, `article`, `table`, `form` and `footer`. These elements make the document structure clearer than using generic containers everywhere. The course table includes a caption and appropriate row and column headers. The enquiry form uses labels connected to controls, suitable input types and built-in browser validation. I also included a skip link and visible keyboard focus styling to improve accessibility.
+
+The project uses relative paths for pages, CSS and SVG illustrations. This makes it easier to move the project folder to a local server such as XAMPP. Developer Tools can be used to inspect the document structure, verify resource requests and identify console errors. The testing record provides a systematic way to check navigation, images, form constraints and responsive layout.
+
+One limitation is that the form is only a front-end demonstration. It does not store or send information because no backend has been included. The department vision, contact details and course information are also sample content and must be checked against official college information. Overall, this project gave me practical experience in planning, writing, organizing and testing a small website. It also showed me why accessibility, accurate content, security awareness and honest evidence are important parts of web development.
